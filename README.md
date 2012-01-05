@@ -10,7 +10,7 @@ This is an enhanced class based on `MultiWidget` that lets you control the rende
     class AddressWidget(MultiWidgetLayout):
         def __init__(self, attrs=None):
             layout = [ 
-                "<label for='%(id)s'>Street:</label>", TextInput()
+                "<label for='%(id)s'>Street:</label>", TextInput(),
                 "<label for='%(id)s'>Number:</label>", TextInput(),
                 "<label for='%(id)s'>Zip Code:</label>", TextInput()
             ]
